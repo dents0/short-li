@@ -1,0 +1,17 @@
+runtime: python38
+service: default
+
+handlers:
+- url: /css
+  static_dir: url_shortener/static/css
+  mime_type: "text/css"
+- url: /.*
+  script: auto
+
+env_variables:
+  DB_USER: "MY_DB_USER"
+  DB_PASS: "MY_DB_PASS"
+  DB_NAME: "MY_DB_NAME"
+  CLOUD_SQL_CONNECTION_NAME: "MY_CLOUD_SQL_CONNECTION_NAME"
+  PROJECT_ID: "MY_PROJECT_ID"
+  TARGET_URL: "short-li.com/"

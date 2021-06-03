@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap');
+
+:root {
+    --dark-grey: #303952;
+    --light-grey: #596275;
+    --dark-orange: #ab4730;
+    --light-orange: #e15f41;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--light-grey);
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+#logo-1st {
+    color: var(--dark-grey);
+}
+
+#logo-2nd {
+    color: var(--light-orange);
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: var(--light-orange) !important;
+    border-color: var(--light-orange) !important;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-orange) !important;
+    border-color: var(--dark-orange) !important;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+i {
+    opacity: 0.7;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+i:hover {
+    opacity: 1;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

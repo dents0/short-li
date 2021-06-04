@@ -7,6 +7,7 @@ handlers:
   mime_type: "text/css"
 - url: /.*
   script: auto
+  secure: always
 
 env_variables:
   DB_USER: "MY_DB_USER"
